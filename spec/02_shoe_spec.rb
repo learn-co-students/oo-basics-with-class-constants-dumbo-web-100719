@@ -19,6 +19,7 @@ describe 'Shoe' do
       brands = ["Uggs", "Rainbow", "Nike", "Nike"]
       brands.each do |brand|
         Shoe.new(brand)
+        
       end
 
       expect(Shoe::BRANDS.size).to eq(3)
